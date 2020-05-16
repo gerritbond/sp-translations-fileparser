@@ -1,0 +1,37 @@
+{
+  "name": "translator",
+  "version": "0.0.1",
+  "description": "File parser for translation files",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest",
+    "test:dev": "",
+    "build": "tsc",
+    "start": "npm run build && node dist/main.js"
+  },
+  "keywords": [
+    "Parser",
+    "Translator"
+  ],
+  "author": "Gerrit Bond",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "25.1.4",
+    "@types/node": "^13.9.1",
+    "@typescript-eslint/eslint-plugin": "^2.23.0",
+    "@typescript-eslint/parser": "^2.23.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-import": "^2.20.1",
+    "jest": "^25.1.0",
+    "prettier": "^1.19.1",
+    "ts-jest": "25.2.1",
+    "ts-loader": "^6.2.1",
+    "ts-node": "^8.6.2",
+    "tsconfig-paths": "^3.9.0",
+    "typescript": "^3.7.4"
+  },
+  "dependencies": {
+    "yargs": "^15.3.1"
+  }
+}
